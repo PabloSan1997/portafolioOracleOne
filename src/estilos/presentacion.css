@@ -1,0 +1,75 @@
+#presentacion {
+  display: flex;
+  margin-top: 90px;
+  padding-bottom: 40px;
+}
+#presentacion .area-texto {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+#presentacion .area-texto h2 {
+  font-size: 49px;
+  margin: auto 2% auto auto;
+  font-weight: 700;
+  width: 80%;
+}
+#presentacion .area-texto p {
+  font-size: 20px;
+  width: 80%;
+  margin: auto 2% auto auto;
+}
+#presentacion .area-imagen {
+  width: 35%;
+  display: flex;
+}
+#presentacion .area-imagen .imagen-perfil {
+  width: 300px;
+  height: 300px;
+  background: rgb(80, 80, 80);
+  margin: auto auto auto 0;
+  border-radius: 100%;
+}
+
+@media (max-width: 934px) {
+  #presentacion .area-imagen .imagen-perfil {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 793px) {
+  #presentacion .area-imagen .imagen-perfil {
+    width: 190px;
+    height: 190px;
+  }
+  #presentacion .area-texto h2 {
+    font-size: 1.4rem;
+  }
+  #presentacion .area-texto p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 581px) {
+  #presentacion {
+    flex-direction: column-reverse;
+  }
+  #presentacion .area-texto {
+    width: 100%;
+  }
+  #presentacion .area-imagen {
+    width: 100%;
+  }
+  #presentacion .area-imagen .imagen-perfil {
+    margin: auto;
+  }
+  #presentacion .area-texto h2 {
+    font-size: 1.4rem;
+    width: 90%;
+    margin:20px auto 0 auto;
+  }
+  #presentacion .area-texto p {
+    font-size: 0.9rem;
+    width: 90%;
+    margin: 10px auto auto auto;
+  }
+}

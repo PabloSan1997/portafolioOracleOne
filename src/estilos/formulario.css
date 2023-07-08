@@ -1,0 +1,101 @@
+#contacto{
+    background: var(--azul-fondo);
+    display: flex;
+    padding: 60px 0 30px 0;
+}
+#contacto .area-imagen{
+    width: 45%;
+    display: flex;
+}
+#contacto .area-imagen img{
+    height: 100%;
+    margin: auto;
+    width: 80%;
+}
+#contacto .area-formulario{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+#contacto .area-formulario .texto{
+    max-width: 80%;
+}
+#contacto .area-formulario h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#contacto .area-formulario .formulario{
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#contacto .area-formulario .formulario .fila{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    background: white;
+    border-radius: 5px;
+}
+#contacto .area-formulario .formulario .fila label{
+    margin: 10px auto 0 10px;
+    font-size: .8rem;
+    color: rgb(150, 150, 150);
+    font-weight: 500;
+}
+#contacto .area-formulario .formulario .fila .entrada{
+    border: none;
+    font-size: 1.3rem;
+    background: none;
+    width: 96%;
+    padding: 0 2% 2px 2%;
+    margin: 5px 0 0 0;
+    outline: none;
+    border-radius: 0 0 5px 5px;
+    border-bottom: 2px solid rgb(204, 203, 203);
+}
+#contacto .area-formulario .formulario .fila .entrada:focus{
+    border-bottom: 2px solid var(--azul-boton);
+}
+#contacto .area-formulario .formulario .fila .entrada.mensaje{
+    resize: none;
+    height: 100px;
+}
+#contacto .area-formulario .formulario .boton{
+    width: fit-content;
+    margin-top: 20px;
+    padding:20px 10px;
+    cursor: pointer;
+    color: var(--fondo);
+    background: var(--azul-boton);
+    border: none;
+    font-size: 16px;
+}
+#contacto .area-formulario .formulario .boton:hover{
+    background: #3c89ee;
+}
+
+@media (max-width:793px){
+    #contacto .area-imagen{
+        display: none;
+    }
+    #contacto .area-formulario .texto{
+        max-width: 90%;
+    }
+    #contacto .area-formulario{
+        width: 90%;
+        margin: auto;
+    }
+    #contacto .area-formulario .formulario{
+        width: 100%;
+    }
+}
+@media (max-width:507px){
+    #contacto .area-formulario h2{
+        font-size: 1.5rem;
+    }
+    #contacto .area-formulario .texto{
+        font-size: .9rem;
+    }
+}

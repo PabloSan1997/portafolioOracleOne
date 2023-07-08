@@ -1,0 +1,52 @@
+#formacion{
+    width: 100%;
+    background: var(--azul-fondo);
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+#formacion .caja{
+    width: 30%;
+    height: 300px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+#formacion .caja img{
+    width: 60%;
+    height: 70%;
+    margin: auto auto 0 auto;
+}
+#formacion .caja .nombre{
+    font-weight: 700;
+    margin: 3% auto 5px 20%;
+    max-width: 60%;
+}
+#formacion .caja .tiempo{
+    font-size: .8rem;
+    margin: 0 auto 5% 20%;
+    max-width: 60%;
+}
+@media (max-width:793px){
+    #formacion .caja img{
+        width: 80%;
+    }
+    #formacion .caja{
+        height: 200px;
+    }
+    #formacion .caja .tiempo{
+        margin: 0 auto 5% 10%;
+    }
+    #formacion .caja .nombre{
+        margin: 10px auto 0 10%;
+    }
+}
+@media (max-width:507px){
+    #formacion{
+        flex-direction: column;
+    }
+    #formacion .caja{
+        width: 80%;
+        margin:10px auto;
+    }
+}

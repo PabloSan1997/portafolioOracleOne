@@ -1,0 +1,29 @@
+#sobremi{
+    width: 100%;
+    background: var(--azul-fondo);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+#sobremi h2{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5% auto 1% 12%;
+}
+#sobremi p{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 12%;
+}
+@media (max-width:793px){
+    #sobremi h2{
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
+    #sobremi p{
+        font-size: .8rem;
+        width: 90%;
+        margin:0 auto 10px auto;
+    }
+}
+

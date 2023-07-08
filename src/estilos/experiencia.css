@@ -1,0 +1,94 @@
+#experiencia{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+#experiencia .area-experiencia{
+    width: 90%;
+    height: 400px;
+    margin: 30px auto;
+    display: flex;
+}
+#experiencia .area-experiencia.voltear{
+    flex-direction: row-reverse;
+}
+#experiencia .area-experiencia .area-imagen{
+    width: 60%;
+    display: flex;
+    height: 100%;
+}
+#experiencia .area-experiencia .area-imagen img{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+}
+
+#experiencia .area-experiencia .area-informacion{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#experiencia .area-experiencia .area-informacion h3{
+    font-size: 22px;
+    margin:0 auto;
+    font-weight: 700;
+}
+#experiencia .area-experiencia .area-informacion p{
+    font-size: 15px;
+    margin:1px auto 6px auto;
+}
+#experiencia .area-experiencia .area-informacion .botonMandar{
+    width: fit-content;
+    padding: 10px 25px;
+    border: none;
+    color: var(--fondo);
+    background: var(--azul-boton);
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin: 0 auto;
+}
+
+#experiencia h2{
+    margin:20px auto;
+    width: fit-content;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+@media (max-width:793px){
+    #experiencia .area-experiencia{
+        flex-direction: column;
+    }
+    #experiencia .area-experiencia.voltear{
+        flex-direction: column;
+    }
+    #experiencia .area-experiencia .area-imagen{
+        width: 100%;
+    }
+    #experiencia .area-experiencia .area-imagen img{
+        height: 100%;
+    }
+    #experiencia .area-experiencia .area-informacion{
+        width: 100%;
+        height: fit-content;
+        justify-content:unset;
+    }
+    #experiencia .area-experiencia .area-informacion h3{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    #experiencia .area-experiencia .area-informacion p{
+        margin-left: 0;
+    }
+    #experiencia .area-experiencia .area-informacion .botonMandar{
+        margin-left: 0;
+    }
+}
+@media (max-width:507px){
+    #experiencia h2{
+        font-size: 1.5rem;
+    }
+}

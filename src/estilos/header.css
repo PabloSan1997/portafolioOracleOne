@@ -1,0 +1,75 @@
+header{
+   width: 100%;
+   background: var(--fondo);
+   position: fixed;
+   height: 90px;
+   top:0;
+   z-index: 10;
+}
+header .space{
+    width: 90%;
+    margin: auto;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .space h1{
+    display: flex;
+    align-items: center;
+}
+header .space h1 img{
+    width: 30px;
+}
+header .space h1 span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+header .space nav{
+    width: 70%;
+   
+}
+header .space nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    
+}
+
+header .space nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+@media (max-width:793px){
+    header .space{
+        width: 90%;
+    }
+    header .space nav ul{
+        width: fit-content;
+    }
+    header .space nav ul li{
+        display: none;
+    }
+    header .space nav ul li a{
+        font-size: .8rem;
+    }
+    header .space nav ul{
+        width: fit-content;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    header .space nav ul li:last-child{
+        display: flex;
+    }
+    header .space h1{
+        width:50%;
+    }
+    header .space h1 span{
+        font-size: .8rem;
+        width: 100%;
+    }
+}

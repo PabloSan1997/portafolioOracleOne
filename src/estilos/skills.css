@@ -1,0 +1,65 @@
+#skills-hobbies{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 30px;
+}
+#skills-hobbies .contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#skills-hobbies .contenedor.hobbies{
+    margin-top: 50px;
+}
+#skills-hobbies .contenedor h2{
+    margin: 10px auto;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+#skills-hobbies .contenedor .area-cajas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    grid-auto-rows: 180px;
+}
+#skills-hobbies .contenedor .area-cajas .caja{
+    background: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+}
+#skills-hobbies .contenedor .area-cajas .caja .logo{
+    width: 30px;
+    position: absolute;
+    left: 5%;
+    bottom:20%;
+}
+#skills-hobbies .contenedor .area-cajas .caja span{
+    font-size: .9rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+@media (max-width:934px) {
+    #skills-hobbies .contenedor .area-cajas{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width:793px) {
+    #skills-hobbies .contenedor .area-cajas{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+@media (max-width:507px){
+    #skills-hobbies .contenedor .area-cajas{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #skills-hobbies .contenedor h2{
+        font-size: 1.5rem;
+    }
+}
