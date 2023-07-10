@@ -96,7 +96,7 @@
         {
             "nombre":"Cronometro Rubik",
             "descripcion":"Proyecto personal",
-            "urlImagen":"https://storage.googleapis.com/ejemploimagenes-f0ee3.appspot.com/cronometro.PNG?GoogleAccessId=service-856988013566@gcp-sa-firebasestorage.iam.gserviceaccount.com&Expires=1688782377&Signature=Ouuw9f7Ce6WM6EqnRFPw3bImJIM0zwWjQZM2bEHP6gncfUZmoUr/Ymr1JAJ8lQApNr2RJmIkLwbRPTpudqGVzep8s233fq0ecTNW5QoJk7eF%2BmaClVcrlIQNNqPEylbhCKNfrxRWIiSbB/K1EHcGTgQX%2BC59lRpPS9zmRd%2B7h3luFiEdZHmh/MOxZLkADb%2BahnUF9nWOj9mZCsS84DAgozM77tH5KoOcuJuf1iEX1aX%2Bl9VzOHFlK7Smeb203pVm93xzam2uQCXF7RgFTLrYFU%2BuVyUUEDZnEAFaFqJVO/80t%2BLZ4PKZwPsDhVlwkSDIuTNvdtXqXhHBJ0QOGlG8%2BQ%3D%3D",
+            "urlImagen":"https://firebasestorage.googleapis.com/v0/b/ejemploimagenes-f0ee3.appspot.com/o/cronometro.PNG?alt=media&token=5c0cc1d3-4e7d-4967-be4c-c376e37754fd",
             "urlRepositorio":"https://github.com/PabloSan1997/TimerRubikTypescript"
         }
     ]
