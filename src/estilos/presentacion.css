@@ -19,6 +19,22 @@
   width: 80%;
   margin: auto 2% auto auto;
 }
+#presentacion .area-texto .areaRedes{
+  width: 80%;
+  margin: auto 2% auto auto;
+}
+#presentacion .area-texto .areaRedes ul{
+  list-style: none;
+  display: flex;
+}
+#presentacion .area-texto .areaRedes ul li{
+  margin: auto 3% auto 0;
+}
+#presentacion .area-texto .areaRedes ul li a{
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
 #presentacion .area-imagen {
   width: 35%;
   display: flex;
@@ -48,6 +64,9 @@
   #presentacion .area-texto p {
     font-size: 0.9rem;
   }
+  #presentacion .area-texto .areaRedes ul li a{
+    font-size: .8rem;
+  }
 }
 @media (max-width: 581px) {
   #presentacion {
@@ -71,5 +90,20 @@
     font-size: 0.9rem;
     width: 90%;
     margin: 10px auto auto auto;
+  }
+  #presentacion .area-texto .areaRedes{
+    width: 90%;
+    margin: auto;
+  }
+  #presentacion .area-texto .areaRedes ul{
+    list-style: none;
+    display: flex;
+  }
+  #presentacion .area-texto .areaRedes ul li{
+    margin: auto 3% auto 0;
+  }
+  #presentacion .area-texto .areaRedes ul li a{
+    font-weight: 700;
+    text-decoration: none;
   }
 }
